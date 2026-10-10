@@ -10,13 +10,13 @@ import plotly.express as px
 # Set the page to wide mode for a better dashboard layout
 st.set_page_config(page_title="Influencer Analytics Dashboard", page_icon="📊", layout="wide")
 
-# Dashboard Title and Business Context
+# Dashboard Title and Context
 st.title("🌟 Instagram Influencer Analytics Dashboard")
 st.markdown("""
 Welcome to the interactive **Instagram Influencer Analytics Dashboard**. 
-This tool empowers marketing teams to discover the most valuable influencers for their campaigns.
-By leveraging machine learning (K-Means clustering) and advanced metrics (Authenticity Score), 
-you can filter out fake accounts, find highly engaged niche creators, and explore geographic trends.
+This tool allows you to explore, analyze, and segment top global Instagram creators based on empirical performance data.
+By leveraging machine learning (K-Means clustering) and audience metrics (Authenticity Score), 
+you can examine engagement patterns, identify highly engaged niche creators, and explore geographic trends.
 """)
 
 # ==========================================
